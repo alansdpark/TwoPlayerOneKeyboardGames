@@ -12,6 +12,11 @@ h1, h2, .rollDice {
     text-align: center;
 }
 
+.BackToHomePage {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 .TotalValue {
     text-align: center;
 }
