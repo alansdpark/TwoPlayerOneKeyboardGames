@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dice Roller</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/DiceRoller.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="TopHeader">Dice Roller</h1>
+    <h2 id="NameTag">By Alan Park</h2>
+    <form class="DiceAmount">
+        <div class="form-group">
+            <!-- Using bootstrap form group for drop-down selection menu. -->
+            <label for="exampleFormControlSelect1">Number of Dice</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+    </form>
+    <div class="rollDiceDiv">
+        <button class="rollDice btn btn-primary">Roll Dice</button>
+    </div>
+
+    <div class="TotalValue">
+        <h4>Total Rolled Number</h4>
+        <p class="DiceTotal">0</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/DiceRoller.js"></script>
+  </body>
+</html>

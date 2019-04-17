@@ -1,3 +1,4 @@
+/* Provides background gradient and font for homepage and all subpages. */
 body {
     font-family: 'Open Sans', sans-serif;
     background: #ECE9E6;  /* fallback for old browsers */

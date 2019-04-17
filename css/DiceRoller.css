@@ -1,0 +1,25 @@
+.DiceAmount {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#TopHeader {
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+h1, h2, .rollDice {
+    text-align: center;
+}
+
+.TotalValue {
+    text-align: center;
+}
+
+.rollDiceDiv {
+    margin-left: 25%;
+}
+
+#NameTag {
+    font-size: 25px;
+}
