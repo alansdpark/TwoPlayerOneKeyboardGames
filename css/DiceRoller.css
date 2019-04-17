@@ -1,4 +1,4 @@
-.DiceAmount {
+.DiceAmount, .DiceVisual {
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -8,8 +8,16 @@
     margin-top: 5%;
 }
 
-h1, h2, .rollDice {
+h1, h2, .rollDice, .DiceAndRespectiveNumber, .TotalValue {
     text-align: center;
+}
+
+
+img {
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .BackToHomePage {
@@ -17,12 +25,22 @@ h1, h2, .rollDice {
     margin-top: 10px;
 }
 
-.TotalValue {
-    text-align: center;
+p {
+    font-size: 40px;
+}
+
+.DiceTotal {
+    font-size: 50px;
+    color: red;
 }
 
 .rollDiceDiv {
     margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.DiceFace {
+    margin-left: 10%;
 }
 
 #NameTag {

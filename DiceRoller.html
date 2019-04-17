@@ -27,14 +27,58 @@
             </select>
           </div>
     </form>
+    <form class="DiceVisual">
+            <div class="form-group">
+                <!-- Using bootstrap form group for drop-down selection menu. -->
+                <label for="exampleFormControlSelect2">Dice Visual Option</label>
+                <select class="form-control" id="exampleFormControlSelect2">
+                  <option>Numbers</option>
+                  <option>Dice Faces</option>
+                </select>
+            </div>
+    </form>
     <div class="rollDiceDiv">
         <button class="rollDice btn btn-primary">Roll Dice</button>
     </div>
 
     <div class="TotalValue">
-        <h4>Total Rolled Number</h4>
+        <h3>Total Rolled Number</h3>
         <p class="DiceTotal">0</p>
     </div>
+
+    <div class="DiceAndRespectiveNumber">
+        <div class="Dice-1">
+            <h4>Dice 1</h4>
+            <p class="Dice-1p">0</p>
+        </div>
+        <div class="Dice-2">
+            <h4>Dice 2</h4>
+            <p class="Dice-2p">0</p>
+        </div>
+        <div class="Dice-3">
+            <h4>Dice 3</h4>
+            <p class="Dice-3p">0</p>
+        </div>
+        <div class="Dice-4">
+            <h4>Dice 4</h4>
+            <p class="Dice-4p">0</p>
+        </div>
+        <div class="Dice-5">
+            <h4>Dice 5</h4>
+            <p class="Dice-5p">0</p>
+        </div>
+    </div>
+
+    <div class="DiceFace">
+        <!-- Just using default first 5 dice faces for 5 total dice images. -->
+        <img class="Dice-1-img" src="css/Dice/Dice-1.png" alt="DiceFace1">
+        <img class="Dice-2-img" src="css/Dice/Dice-2.png" alt="DiceFace2">
+        <img class="Dice-3-img" src="css/Dice/Dice-3.png" alt="DiceFace3">
+        <img class="Dice-4-img" src="css/Dice/Dice-4.png" alt="DiceFace4">
+        <img class="Dice-5-img" src="css/Dice/Dice-5.png" alt="DiceFace5">
+    </div>
+
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/DiceRoller.js"></script>
   </body>
